@@ -8,4 +8,6 @@ interface ICarElementVisitor {
     void visit(Body body);
 
     void visit(Car car);
+
+    void visit(Trunk trunk);
 }

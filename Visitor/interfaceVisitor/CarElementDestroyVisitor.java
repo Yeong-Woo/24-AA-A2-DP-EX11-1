@@ -16,4 +16,9 @@ class CarElementDestroyVisitor implements ICarElementVisitor {
     public void visit(Car car) {
         System.out.println("Sell my car");
     }
+
+    public void visit(Trunk trunk) {
+        System.out.println("Empty my trunk");
+    }
+
 }

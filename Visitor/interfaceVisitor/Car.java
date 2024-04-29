@@ -5,7 +5,7 @@ class Car implements ICarElement {
 
     public Car() {
         this.elements = new ICarElement[] { new Wheel("front left"), new Wheel("front right"), new Wheel("back left"),
-                new Wheel("back right"), new Body(), new Engine() };
+                new Wheel("back right"), new Body(), new Engine(), new Trunk() };
     }
 
     public void accept(ICarElementVisitor visitor) {

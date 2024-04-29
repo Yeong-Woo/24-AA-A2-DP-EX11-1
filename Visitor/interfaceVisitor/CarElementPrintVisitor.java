@@ -16,4 +16,8 @@ class CarElementPrintVisitor implements ICarElementVisitor {
     public void visit(Car car) {
         System.out.println("Visiting car");
     }
+
+    public void visit(Trunk trunk) {
+        System.out.println("Visiting trunk");
+    }
 }

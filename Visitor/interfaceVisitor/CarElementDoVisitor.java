@@ -16,4 +16,8 @@ class CarElementDoVisitor implements ICarElementVisitor {
     public void visit(Car car) {
         System.out.println("Starting my car");
     }
+
+    public void visit(Trunk trunk) {
+        System.out.println("Open my trunk");
+    }
 }
